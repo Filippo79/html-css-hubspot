@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.bg-rosa {
+    background-color: #fff2ee;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin-left: 0 auto;
+    /* da rimuovere */
+    height: 600px;
+}
+
+.fisso {
+    height: 80px;
+    width: 100%;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid black;
+}
+
+.english {
+    width: 50px;
+    border-right: 1px solid #cbd6e2;
+
+}
