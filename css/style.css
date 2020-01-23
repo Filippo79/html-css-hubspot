@@ -13,6 +13,7 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
+
 .bg-rosa {
     background-color: #fff2ee;
     width: 100%;
@@ -30,7 +31,7 @@ body {
     width: 100%;
     background-color: #f5f8fa;
     border-bottom: 1px solid black;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .english {
@@ -46,6 +47,7 @@ body {
     text-align: center;
     margin: 22px 15px;
 }
+
 .button {
     float: right;
     /* chiedere spiegazioni */
@@ -62,10 +64,38 @@ body {
     padding: 10px 20px;
     margin: 20px;
 }
+
 .btn-orange {
     color: white;
     background-color: #ff7a59;
     border: none;
     border-radius: 5px;
     padding: 10px 30px;
+}
+
+.nav {
+    background-color: #fff2ee;
+}
+
+#logo {
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#navbar li {
+    float: right;
+    list-style: none;
+    margin-right: 90px;
+    margin-top: 25px;
+    color: #33475b;
+}
+
+a {
+    color: #33475b;
+    text-decoration: none;
+}
+.gray {
+    background-color: #425b76;
+
 }
