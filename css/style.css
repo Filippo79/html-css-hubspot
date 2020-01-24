@@ -20,7 +20,8 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     max-width: 1600px;
     /* da rimuovere */
     height: 800px;
@@ -61,7 +62,7 @@ body {
     color: #00a4bd;
 }
 
-#login-button {
+.btn-small {
     background-color: #ffffff;
     border: 1px solid #ff9a82;
     color: #ff9a82;
@@ -70,7 +71,7 @@ body {
     margin: 20px;
 }
 
-.btn-orange {
+.btn-large {
     color: white;
     background-color: #ff7a59;
     border: none;
@@ -86,6 +87,9 @@ body {
     float: left;
     margin-top: 20px;
     margin-left: 150px;
+}
+#navbar {
+    margin-right: 80px;
 }
 
 #navbar li {
@@ -104,11 +108,29 @@ a {
     background-color: #425b76;
 }
 .always {
-    width: 900px;
+    width: 60%;
+    float: left;
     text-align: left;
     margin-left: 150px;
     color: white;
+    padding-top: 15px;
+
 }
-.always p {
-    
+
+.learn-nome {
+    float: left;
+}
+.learn {
+    color: #667584;
+    border: none;
+}
+h1{
+    font-size: 50px;
+}
+.jumbotron {
+    width: 20%;
+    margin-top: 150px;
+    margin-left: 150px;
+
+
 }
