@@ -23,20 +23,20 @@ body {
     width: 100%;
     max-width: 1600px;
     /* da rimuovere */
-    height: 600px;
+    height: 800px;
 }
 
 .fisso {
-    height: 80px;
+    height: 85px;
     width: 100%;
     background-color: #f5f8fa;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #e0e6ed;
     /* position: fixed; */
 }
 
 .english {
     width: 100px;
-    border-right: 1px solid #cbd6e2;
+    border-right: 3px solid #cbd6e2;
     text-align: center;
     float: left;
     margin-left: 150px;
@@ -53,7 +53,9 @@ body {
     /* chiedere spiegazioni */
     line-height: 5;
     margin-right: 170px;
-
+}
+.fa-search {
+    color: #00a4bd;
 }
 
 #login-button {
@@ -72,9 +74,9 @@ body {
     border-radius: 5px;
     padding: 10px 30px;
 }
-
+/* veerificare classe nav */
 .nav {
-    background-color: #fff2ee;
+    background-color: #ffffff;
 }
 
 #logo {
