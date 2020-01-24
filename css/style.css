@@ -14,26 +14,21 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.bg-rosa {
-    background-color: #fff2ee;
+.bg-grey {
+    background-color: #f5f8fa;
+    border-bottom: 2px solid #e0e6ed;
+}
+
+.container-base {
+    height: 85px;
     width: 100%;
+    text-align: center;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    max-width: 1600px;
-    /* da rimuovere */
-    height: 800px;
-}
-
-.fisso {
-    height: 85px;
-    width: 100%;
-    text-align: center;
-    background-color: #f5f8fa;
-    border-bottom: 2px solid #e0e6ed;
-    /* position: fixed; */
+    max-width: 1200px;
 }
 
 .english {
@@ -43,7 +38,6 @@ body {
     float: left;
     display: ruby;
     margin-top: 30px;
-    margin-left: 150px;
 }
 
 .Contact {
@@ -85,8 +79,7 @@ body {
 
 #logo {
     float: left;
-    margin-top: 20px;
-    margin-left: 150px;
+    margin-top: 25px;
 }
 #navbar {
     margin-right: 80px;
@@ -111,26 +104,45 @@ a {
     width: 60%;
     float: left;
     text-align: left;
-    margin-left: 150px;
     color: white;
     padding-top: 15px;
-
 }
 
-.learn-nome {
-    float: left;
-}
 .learn {
     color: #667584;
     border: none;
 }
+
 h1{
     font-size: 50px;
 }
+
+p {
+    margin-top: 10px;
+}
+
+.banner{
+    height: 1000px;
+    background-color: #fff5ef;
+    background-image: url(../img/nuvole.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .jumbotron {
-    width: 20%;
-    margin-top: 150px;
-    margin-left: 150px;
+    width: 35%;
+    margin-top: 40px;
+    float: left;
 
+}
 
+.jumbotron h1 {
+    color: #33475b;
+}
+.extra {
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    margin-top: 20px;
 }
