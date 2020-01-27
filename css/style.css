@@ -75,11 +75,14 @@ body {
 
 .nav {
     background-color: #ffffff;
+    position: relative;
 }
 
 #logo {
     float: left;
     margin-top: 25px;
+    /* non mi spiego il position relative */
+    position: absolute;
 }
 #navbar {
     margin-right: 80px;
@@ -145,4 +148,35 @@ p {
     height: 70px;
     font-size: 15px;
     margin-top: 20px;
+}
+.powerfull {
+    background-color: #f5f8fa;
+    /* ochio grandezza  */
+    height: 1000px;
+}
+.powerfull-alone {
+    width: 100%;
+    height: 400px;
+}
+.powerfull-alone img {
+    height:200px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.powerfull-alone h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #33475b;
+}
+.powerfull-alone p {
+    text-align: center;
+    margin: 20px 150px;
+}
+.free-hubspot {
+    height: 300px;
+    width: 100%;
+}
+.img-crm {
+    width: 300px;
+    height: 200px;
 }
