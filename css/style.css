@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+.clearfix: {
     content: "";
     display: table;
     clear: both;
@@ -152,7 +152,7 @@ p {
 .powerfull {
     background-color: #f5f8fa;
     /* ochio grandezza  */
-    height: 1000px;
+    height: 1400px;
 }
 .powerfull-alone {
     width: 100%;
@@ -174,9 +174,91 @@ p {
 }
 .free-hubspot {
     height: 300px;
-    width: 100%;
+    width: 1000px;
+    background-color: #ffffff;
 }
 .img-crm {
     width: 300px;
     height: 200px;
+    float: left;
+}
+.img-crm img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+.img-crm button {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 130px;
+    height: 45px;
+    font-size: 12px;
+}
+.crm {
+    float: right;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+}
+.crm h4 {
+    font-size: 20px;
+    color: #33475b;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.crm > p {
+    color: #47596b;
+    margin-bottom: 20px;
+}
+.crm ul {
+    list-style: none;
+    color: #47596b;
+    display: inline-flex;
+    margin-top: 15px;
+}
+.crm li {
+    padding: 15px;
+}
+.card {
+    height: 560px;
+    width: 300px;
+    background-color: #ffffff;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    margin: 20px 20px;
+}
+.card img{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+}
+.card h4 {
+    color: #33475b;
+}
+.card p {
+    color: #536475;
+}
+.popular {
+    border-top: 2px solid #eff2f6;
+    margin-top: 20px;
+    padding-top: 15px;
+    width: 300px;
+    height: 400px;
+}
+.popular p {
+    color: #33475b;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.popular ul {
+    text-align: left;
+    list-style: none;
+    margin-left: 50px;
+    color: #536475;
+}
+.popular button {
+    margin-top: 20px;
+    height: 45px
 }
