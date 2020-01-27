@@ -143,50 +143,60 @@ p {
 .jumbotron h1 {
     color: #33475b;
 }
+
 .extra {
     width: 200px;
     height: 70px;
     font-size: 15px;
     margin-top: 20px;
 }
+
 .powerfull {
     background-color: #f5f8fa;
     /* ochio grandezza  */
     height: 1400px;
 }
+
 .powerfull-alone {
     width: 100%;
     height: 400px;
 }
+
 .powerfull-alone img {
     height:200px;
     margin-left: 400px;
     margin-top: 30px;
 }
+
 .powerfull-alone h1 {
     text-align: center;
     font-size: 35px;
     color: #33475b;
 }
+
 .powerfull-alone p {
     text-align: center;
     margin: 20px 150px;
 }
+
 .free-hubspot {
     height: 300px;
     width: 1000px;
     background-color: #ffffff;
 }
+
 .img-crm {
     width: 300px;
     height: 200px;
     float: left;
 }
+
 .img-crm img {
     width: 150px;
     height: 150px;
     margin-left: 100px;
 }
+
 .img-crm button {
     margin-top: 30px;
     margin-left: 100px;
@@ -194,31 +204,37 @@ p {
     height: 45px;
     font-size: 12px;
 }
+
 .crm {
     float: right;
     width: 600px;
     height: 300px;
     padding: 30px;
 }
+
 .crm h4 {
     font-size: 20px;
     color: #33475b;
     text-align: left;
     margin-bottom: 30px;
 }
+
 .crm > p {
     color: #47596b;
     margin-bottom: 20px;
 }
+
 .crm ul {
     list-style: none;
     color: #47596b;
     display: inline-flex;
     margin-top: 15px;
 }
+
 .crm li {
     padding: 15px;
 }
+
 .card {
     height: 560px;
     width: 320px;
@@ -229,17 +245,21 @@ p {
     margin-top: 20px;
     margin-right: 20px;
 }
+
 .card img{
     width: 200px;
     height: 150px;
     margin-top: 40px;
 }
+
 .card h4 {
     color: #33475b;
 }
+
 .card p {
     color: #536475;
 }
+
 .popular {
     border-top: 2px solid #eff2f6;
     margin-top: 20px;
@@ -247,19 +267,69 @@ p {
     width: 300px;
     height: 400px;
 }
+
 .popular p {
     color: #33475b;
     text-transform: uppercase;
     font-size: 15px;
     margin-bottom: 15px;
 }
+
 .popular ul {
     text-align: left;
     list-style: none;
     margin-left: 50px;
     color: #536475;
 }
+
 .popular button {
     margin-top: 20px;
     height: 45px
+}
+
+.support {
+    height: 900px;
+    background-color: #00abb6;
+}
+
+
+.learn > h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 0 250px;
+}
+
+.learn > p {
+    text-align: center;
+    color: #f8fdfd;
+    margin: 20px  250px;
+}
+.table {
+    width: 250px;
+    height: 180px;
+    float: left;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.mani {
+    text-align: center;
+}
+
+.mani img {
+    height: 40px;
+}
+
+.groups {
+    text-align: center;
+}
+
+.groups h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.groups p {
+    color: white;
 }
